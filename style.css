@@ -1,1 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('ARCHITECTURE.ttf');
+
+body{
+margin: 0;
+font-family: "Gilles sans", sans-serif;
+background-image: url("bmw3.jpg");
+background-repeat: no-repeat;
+background-size: cover;}
+
+ 
+
+/*BIOGRAPHIE*/
+
+.bio{
+margin: 5%;
+padding: 1%;
+text-align: center;
+background: rgba(255,255,255,0.5);
+display: flex;
+justify-content: align-center;}
+
+
+
+/* BARRE MENU */
+
+.menu {
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline;
+  
+}
+
+.menu ul li a {
+  display: inline-block;
+  color: white;
+  padding: 1% 2%;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  background-color: #555;
+}
+
+/* DEMARCHE*/
+
+#concept{
+color: white;
+position: fixed;
+z-index: 1000;
+background: rgba(0,0,0,0.5);
+border-bottom: solid white 0.1em;
+}
+
+#concept ul {
+display: grid;
+
+  list-style-type: none;
+  
+  padding: 0;
+  
+}
+
+#concept ul li{
+border-top: solid white 0.1em;}
+#concept ul li a {
+	
+	color: white;
+  
+  padding: 5% ;
+  /* padding-top: 2%; */
+  /* padding-bottom: 1%;	 */
+  text-decoration: none;
+  
+}
+
+#concept ul li:hover{background: pink;
+color: black;}
+
+#concept:hover {background-color: black;}
+
+
+.demarche{
+margin: 5%;
+padding: 1%;
+text-align: center;
+background: rgba(255,255,255,0.5);}
+
+
+
+.images {
+    display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    margin-right: 0;
+}
+
+#img1 {
+    width: 90%;
+}
+#img2 {
+    width: 90%;
+}
+#img3 {
+    width: 90%;
+}
+#img4 {
+    width: 70%;
+}
+figcaption {
+    /* position: absolute; */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+
+    top:0;
+    width: 70%;
+    text-align: center;
+}
+
 
